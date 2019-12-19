@@ -1,0 +1,92 @@
+{
+    "name": "Factual",
+    "description": "Factual is pioneering how the world uses data to power mobile marketing, digital consumer products, mobile applications and real world analytics.",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/139-factual.jpg",
+    "tags": [
+        "api provider",
+        "business",
+        "data",
+        "data provider",
+        "general data",
+        "geo",
+        "have api",
+        "locations",
+        "places",
+        "target"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/factual\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Factual",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/139-factual.jpg",
+            "humanURL": "http:\/\/www.factual.com\/",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/factual-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/factual-postman-collection.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Website",
+            "url": "http:\/\/www.factual.com\/"
+        },
+        {
+            "type": "Base",
+            "url": "http:\/\/api.v3.factual.com"
+        },
+        {
+            "type": "Blog",
+            "url": "http:\/\/blog.factual.com"
+        },
+        {
+            "type": "Blog RSS",
+            "url": "http:\/\/feeds.feedburner.com\/FactualBlog"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "http:\/\/www.crunchbase.com\/company\/factual"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/crunchbase.com\/organization\/factual"
+        },
+        {
+            "type": "Email",
+            "url": "media@factual.com"
+        },
+        {
+            "type": "Email",
+            "url": "privacy@factual.com"
+        },
+        {
+            "type": "Github",
+            "url": "https:\/\/github.com\/Factual"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/factual"
+        },
+        {
+            "type": "Website",
+            "url": "https:\/\/www.factual.com\/"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/api.v3.factual.com"
+        }
+    ]
+}

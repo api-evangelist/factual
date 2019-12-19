@@ -1,0 +1,16 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "v3",
+        "title": "Factual",
+        "description": "Access to the places and business data available at Factual.",
+        "termsOfService": ""
+    },
+    "servers": [
+        "httpsapi.v3.factual.com\/"
+    ],
+    "paths": [],
+    "components": {
+        "schemas": []
+    }
+}

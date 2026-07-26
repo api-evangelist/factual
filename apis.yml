@@ -1,11 +1,32 @@
 aid: factual
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/factual.png
 name: Factual
-description: Factual is a company surfaced as a portfolio company of a16z, dcvc, index-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Factual Inc. was a Los Angeles-based location-data company (backed by a16z, DCVC and
+  Index Ventures) that operated the Global Places database and Geopulse audience/location
+  APIs, giving developers programmatic access to a worldwide catalog of business points of
+  interest, categories, attributes and geotagged mobile audience data. Factual was acquired
+  by and merged into Foursquare in 2020; factual.com now redirects to foursquare.com and the
+  standalone Factual Places/Geopulse API has been discontinued. This profile preserves the
+  historical first-party client drivers (Java, Python, Node.js, Clojure) still published in
+  their package registries and captured as real artifacts in the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/factual/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
+x-status: acquired
+x-acquired-by: foursquare
+x-acquired-year: 2020
 x-backed-by:
 - a16z
 - dcvc
@@ -14,9 +35,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Location
+- Places
+- Geolocation
+- Points of Interest
+- Location Data
+- Geospatial
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,4 +53,17 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://factual.com
+  url: https://foursquare.com
+- type: GitHubOrganization
+  url: https://github.com/Factual
+- type: Packages
+  url: packages/factual-packages.yml
+- type: SDKs
+  url: packages/factual-packages.yml
+- type: DomainSecurity
+  url: security/factual-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

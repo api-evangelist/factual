@@ -1,0 +1,42 @@
+generated: '2026-07-19'
+method: searched
+source: https://github.com/Factual (official Factual org drivers) + npm/PyPI/Maven Central
+note: >-
+  Factual Inc. (location/places data) merged into Foursquare in 2020 and its public
+  Places/Geopulse API was discontinued. The first-party client drivers below remain
+  published in their registries but are legacy/unmaintained and target the retired
+  Factual API. Recorded as real, historical first-party artifacts.
+packages:
+  - language: java
+    registry: maven
+    name: com.factual:factual-java-driver
+    url: https://search.maven.org/artifact/com.factual/factual-java-driver
+    source: https://github.com/Factual/factual-java-driver
+    install: "implementation 'com.factual:factual-java-driver:1.8.9-android'"
+    latest: 1.8.9-android
+    official: true
+  - language: python
+    registry: pypi
+    name: factual-api
+    url: https://pypi.org/project/factual-api/
+    source: https://github.com/Factual/factual-python-driver
+    install: pip install factual-api
+    latest: 1.7.0
+    official: true
+    description: Official Python driver for the Factual public API
+  - language: javascript
+    registry: npm
+    name: factual-api
+    url: https://www.npmjs.com/package/factual-api
+    source: https://github.com/Factual/factual-nodejs-driver
+    install: npm install factual-api
+    latest: 1.0.7
+    official: true
+    description: Node.js driver for accessing the Factual API
+  - language: clojure
+    registry: github
+    name: factual-clojure-driver
+    url: https://github.com/Factual/factual-clojure-driver
+    source: https://github.com/Factual/factual-clojure-driver
+    official: true
+    description: Officially supported Clojure driver for Factual's API
